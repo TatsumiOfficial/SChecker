@@ -594,7 +594,7 @@ try{
 	$mail->Port       = $port;
     // $mail->SMTPSecure = 'tls4';
 	$mail->setFrom("$mailfrom", "$mailfrom");
-	$mail->addAddress("kyokashiraoka@hotmail.com", "$mailfrom"); 
+	$mail->addAddress("youremail@hotmail.com", "$mailfrom"); 
 	$mail->isHTML(true);
 	$mail->Subject = "SMTP Worked! $host - Success!";
 	$mail->Body = $letter;
